@@ -1,0 +1,53 @@
+<div class="card flex justify-content-center">
+    <p-dialog header="Actualizar Empleado" [modal]="true" [(visible)]="display" [style]="{ width: '40rem' }">
+        <span class="p-text-secondary block mb-5">Rellena los campos para actualizar los datos del empleado.</span>
+        <form [formGroup]="employeeForm" (ngSubmit)="editEmployee()">
+            <div class="flex align-items-center gap-3 mb-3">
+                <label for="firstName" class="font-semibold w-6rem">Nombre</label>
+                <input pInputText id="firstName" formControlName="firstName" class="flex-auto" autocomplete="off" />
+                <small *ngIf="employeeForm.get('firstName')?.invalid && employeeForm.get('firstName')?.touched" class="p-error">El nombre es requerido</small>
+            </div>
+            
+            <div class="flex align-items-center gap-3 mb-3">
+                <label for="lastName" class="font-semibold w-6rem">Apellido</label>
+                <input pInputText id="lastName" formControlName="lastName" class="flex-auto" autocomplete="off" />
+                <small *ngIf="employeeForm.get('lastName')?.invalid && employeeForm.get('lastName')?.touched" class="p-error">El apellido es requerido</small>
+            </div>
+            
+            <div class="flex align-items-center gap-3 mb-3">
+                <label for="position" class="font-semibold w-6rem">Cargo</label>
+                <input pInputText id="position" formControlName="position" class="flex-auto" autocomplete="off" />
+                <small *ngIf="employeeForm.get('position')?.invalid && employeeForm.get('position')?.touched" class="p-error">El cargo es requerido</small>
+            </div>
+            
+            <div class="flex align-items-center gap-3 mb-3">
+                <label for="email" class="font-semibold w-6rem">Email</label>
+                <input pInputText id="email" formControlName="email" class="flex-auto" autocomplete="off" />
+                <small *ngIf="employeeForm.get('email')?.invalid && employeeForm.get('email')?.touched" class="p-error">
+                    {{ employeeForm.get('email')?.errors?.['required'] ? 'El email es requerido' : 'Debe proporcionar un email válido' }}
+                </small>
+            </div>
+            
+            <div class="flex align-items-center gap-3 mb-3">
+                <label for="hireDate" class="font-semibold w-6rem">Contratación</label>
+                <p-calendar id="hireDate" formControlName="hireDate" [showIcon]="true" dateFormat="dd/mm/yy" [readonlyInput]="true"></p-calendar>
+            </div>
+            
+            <div class="flex align-items-center gap-3 mb-3">
+                <label for="photoUrl" class="font-semibold w-6rem">Foto (URL)</label>
+                <p-fileUpload name="photoUrl" accept="image/jpeg" mode="basic" (onSelect)="onFileSelect($event)"></p-fileUpload>
+                <small *ngIf="!uploadedFile" class="p-error">Por favor, selecciona una imagen en formato JPG.</small>
+            </div>
+
+            <div *ngIf="photoUrl">
+                <p>Imagen seleccionada:</p>
+                <img [src]="photoUrl" alt="Foto del Empleado" style="max-width: 200px; max-height: 200px;"/>
+            </div>
+
+            <div class="flex justify-content-end gap-2 mt-3">
+                <p-button label="Cancelar" severity="secondary" (onClick)="visible = false" />
+                <button type="submit" pButton label="Guardar" icon="pi pi-check" class="p-button-success" [disabled]="!employeeForm.valid"></button>
+            </div>
+        </form>
+    </p-dialog>
+</div>

@@ -1,0 +1,50 @@
+  <div class="p-d-flex p-jc-center p-ai-center" style="height: 100vh;">
+    <div class="p-fluid" style="width: 80%;">
+      <h2>Añadir Empleado</h2>
+      <form [formGroup]="employeeForm" (ngSubmit)="saveEmployee()">
+        <div class="p-field">
+          <label for="firstName">Nombre</label>
+          <input id="firstName" type="text" pInputText formControlName="firstName" />
+          <small *ngIf="employeeForm.get('firstName')?.invalid && employeeForm.get('firstName')?.touched" class="p-error">El nombre es requerido</small>
+        </div>
+  
+        <div class="p-field">
+          <label for="lastName">Apellido</label>
+          <input id="lastName" type="text" pInputText formControlName="lastName" />
+          <small *ngIf="employeeForm.get('lastName')?.invalid && employeeForm.get('lastName')?.touched" class="p-error">El apellido es requerido</small>
+        </div>
+  
+        <div class="p-field">
+          <label for="position">Cargo</label>
+          <input id="position" type="text" pInputText formControlName="position" />
+          <small *ngIf="employeeForm.get('position')?.invalid && employeeForm.get('position')?.touched" class="p-error">El cargo es requerido</small>
+        </div>
+  
+        <div class="p-field">
+          <label for="email">Email</label>
+          <input id="email" type="email" pInputText formControlName="email" />
+          <small *ngIf="employeeForm.get('email')?.invalid && employeeForm.get('email')?.touched" class="p-error">            
+            {{ employeeForm.get('email')?.errors?.['required'] ? 'El email es requerido' : 'Debe proporcionar un email válido con dominio completo' }}
+          </small>
+        </div>
+  
+        <div class="p-field">
+          <label for="hireDate">Fecha de Contratación</label>
+          <p-calendar id="hireDate" formControlName="hireDate" [showIcon]="true" dateFormat="dd/mm/yy" [readonlyInput]="true"></p-calendar>
+        </div>
+  
+        <div class="p-field">
+          <label for="photoUrl">Foto (URL)</label>
+          <p-fileUpload name="photoUrl" accept="image/jpeg" mode="basic" (onSelect)="onFileSelect($event)"></p-fileUpload>
+          <small *ngIf="!uploadedFile" class="p-error">Por favor, selecciona una imagen en formato JPG.</small>
+        </div>
+
+        <div *ngIf="photoUrl">
+          <p>Imagen seleccionada:</p>
+          <img [src]="photoUrl" alt="Foto del Empleado" style="max-width: 200px; max-height: 200px;"/>
+        </div>
+  
+        <button type="submit" pButton label="Guardar" icon="pi pi-check" class="p-button-success" [disabled]="!employeeForm.valid"></button>
+      </form>
+    </div>
+  </div>

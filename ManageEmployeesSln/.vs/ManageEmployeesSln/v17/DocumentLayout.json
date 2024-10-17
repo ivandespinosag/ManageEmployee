@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GestionEmpleados\\ManageEmployeesSln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7A90734-0868-4338-AE68-08FC046E6184}|ManageEmployees.Infraestructure\\ManageEmployees.Infraestructure.csproj|c:\\gestionempleados\\manageemployeessln\\manageemployees.infraestructure\\data\\employeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7A90734-0868-4338-AE68-08FC046E6184}|ManageEmployees.Infraestructure\\ManageEmployees.Infraestructure.csproj|solutionrelative:manageemployees.infraestructure\\data\\employeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6275566-FEB9-42DE-9A3D-9500AD36DE5D}|ManageEmployees.Api\\ManageEmployees.Api.csproj|c:\\gestionempleados\\manageemployeessln\\manageemployees.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6275566-FEB9-42DE-9A3D-9500AD36DE5D}|ManageEmployees.Api\\ManageEmployees.Api.csproj|solutionrelative:manageemployees.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{716B3C85-7DBE-45FE-BFBD-50A686E36BAA}|ManageEmployees.Services\\ManageEmployees.Services.csproj|c:\\gestionempleados\\manageemployeessln\\manageemployees.services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{716B3C85-7DBE-45FE-BFBD-50A686E36BAA}|ManageEmployees.Services\\ManageEmployees.Services.csproj|solutionrelative:manageemployees.services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\GestionEmpleados\\ManageEmployeesSln\\ManageEmployees.Api\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "ManageEmployees.Api\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\GestionEmpleados\\ManageEmployeesSln\\ManageEmployees.Api\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "ManageEmployees.Api\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAMwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:31:13.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeData.cs",
+              "DocumentMoniker": "C:\\GestionEmpleados\\ManageEmployeesSln\\ManageEmployees.Infraestructure\\Data\\EmployeeData.cs",
+              "RelativeDocumentMoniker": "ManageEmployees.Infraestructure\\Data\\EmployeeData.cs",
+              "ToolTip": "C:\\GestionEmpleados\\ManageEmployeesSln\\ManageEmployees.Infraestructure\\Data\\EmployeeData.cs",
+              "RelativeToolTip": "ManageEmployees.Infraestructure\\Data\\EmployeeData.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAMwFoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:31:13.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\GestionEmpleados\\ManageEmployeesSln\\ManageEmployees.Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "ManageEmployees.Services\\NotificationService.cs",
+              "ToolTip": "C:\\GestionEmpleados\\ManageEmployeesSln\\ManageEmployees.Services\\NotificationService.cs",
+              "RelativeToolTip": "ManageEmployees.Services\\NotificationService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwDAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:48:09.675Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

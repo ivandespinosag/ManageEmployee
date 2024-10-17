@@ -1,0 +1,15 @@
+C:\GestionEmpleados\ManageEmployeesSln\ManageEmployees.Services\bin\Debug\net8.0\ManageEmployees.Services.deps.json
+C:\GestionEmpleados\ManageEmployeesSln\ManageEmployees.Services\bin\Debug\net8.0\ManageEmployees.Services.dll
+C:\GestionEmpleados\ManageEmployeesSln\ManageEmployees.Services\bin\Debug\net8.0\ManageEmployees.Services.pdb
+C:\GestionEmpleados\ManageEmployeesSln\ManageEmployees.Services\obj\Debug\net8.0\ManageEmployees.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\GestionEmpleados\ManageEmployeesSln\ManageEmployees.Services\obj\Debug\net8.0\ManageEmployees.Services.AssemblyInfoInputs.cache
+C:\GestionEmpleados\ManageEmployeesSln\ManageEmployees.Services\obj\Debug\net8.0\ManageEmployees.Services.AssemblyInfo.cs
+C:\GestionEmpleados\ManageEmployeesSln\ManageEmployees.Services\obj\Debug\net8.0\ManageEmployees.Services.csproj.CoreCompileInputs.cache
+C:\GestionEmpleados\ManageEmployeesSln\ManageEmployees.Services\obj\Debug\net8.0\ManageEmployees.Services.dll
+C:\GestionEmpleados\ManageEmployeesSln\ManageEmployees.Services\obj\Debug\net8.0\refint\ManageEmployees.Services.dll
+C:\GestionEmpleados\ManageEmployeesSln\ManageEmployees.Services\obj\Debug\net8.0\ManageEmployees.Services.pdb
+C:\GestionEmpleados\ManageEmployeesSln\ManageEmployees.Services\obj\Debug\net8.0\ref\ManageEmployees.Services.dll
+C:\GestionEmpleados\ManageEmployeesSln\ManageEmployees.Services\obj\Debug\net8.0\ManageEmployees.Services.csproj.AssemblyReference.cache
+C:\GestionEmpleados\ManageEmployeesSln\ManageEmployees.Services\bin\Debug\net8.0\ManageEmployees.Infraestructure.dll
+C:\GestionEmpleados\ManageEmployeesSln\ManageEmployees.Services\bin\Debug\net8.0\ManageEmployees.Infraestructure.pdb
+C:\GestionEmpleados\ManageEmployeesSln\ManageEmployees.Services\obj\Debug\net8.0\ManageEm.8C49FA17.Up2Date

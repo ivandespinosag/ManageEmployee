@@ -1,0 +1,38 @@
+.employee-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.p-table {
+  width: 100%;
+  table-layout: auto;
+}
+
+/* Ajustar el tamaño de las imágenes en la tabla */
+.employee-photo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/* Asegurarse de que los botones estén uno al lado del otro */
+.actions-container {
+  display: flex;
+  justify-content: space-around; /* Ajustar espaciado entre los botones */
+  align-items: center;
+}
+
+/* Forzar color de icono para los botones de edición y eliminación */
+.edit-button .pi-pencil {
+  color: yellow !important;
+}
+
+.delete-button .pi-trash {
+  color: red !important;
+}
+
+/* Asegurarse de que los botones se adapten correctamente */
+.p-button-text {
+  min-width: 40px; /* Opcional: asegura que los botones tengan un tamaño mínimo */
+}
